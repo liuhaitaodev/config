@@ -1,0 +1,26 @@
+server:
+  port: ${port:9001}
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.66.99:3306/leyou
+    username: root
+    password: root
+  application:
+    name: user-service
+  main:
+    banner-mode: 'off'
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: false
+
+logging:
+  level:
+    com.hatim: debug
