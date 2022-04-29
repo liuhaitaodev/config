@@ -16,3 +16,5 @@ mybatis:
 logging:
   level:
     com.hatim: debug
+test:
+  name: 666
