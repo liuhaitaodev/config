@@ -17,4 +17,4 @@ logging:
   level:
     com.hatim: debug
 test:
-  name: Do you hear the people sing
+  name: When the beating of your heart,echoes the beating of the drums
