@@ -17,4 +17,4 @@ logging:
   level:
     com.hatim: debug
 test:
-  name: sing the liberal song
+  name: Do you hear the people sing
