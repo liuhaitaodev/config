@@ -17,4 +17,4 @@ logging:
   level:
     com.hatim: debug
 test:
-  name: all over the world
+  name: sing the liberal song
