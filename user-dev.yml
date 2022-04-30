@@ -17,4 +17,4 @@ logging:
   level:
     com.hatim: debug
 test:
-  name: good
+  name: good service
