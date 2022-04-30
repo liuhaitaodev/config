@@ -6,8 +6,6 @@ spring:
     url: jdbc:mysql://192.168.66.99:3306/leyou
     username: root
     password: root
-  application:
-    name: user-service
   main:
     banner-mode: 'off'
 mybatis:
